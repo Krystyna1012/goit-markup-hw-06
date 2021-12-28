@@ -789,7 +789,7 @@ header {
   margin-bottom: 30px;
 }
 
-.checkbox {
+.input-checkbox {
   position: relative;
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -820,12 +820,13 @@ header {
     background-color 250ms var(--timing-function);
 }
 
-.checkbox:focus + .checkbox-icon {
+.input-checkbox:focus + .checkbox-icon {
   outline: 1px solid var(--accent-color);
 }
-.checkbox:checked + .checkbox-icon {
+.input-checkbox:checked + .checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
+  color: #fff;
 }
 .checkbox-hiden {
   position: absolute;
@@ -834,8 +835,7 @@ header {
   height: 1px;
   margin: -1px;
 }
-
-.form-link {
+*/ .form-link {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   transition: outline-offset 250ms var(--timing-function);
