@@ -835,7 +835,7 @@ header {
   height: 1px;
   margin: -1px;
 }
-*/ .form-link {
+.form-link {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   transition: outline-offset 250ms var(--timing-function);
@@ -853,13 +853,13 @@ header {
 }
 @keyframes ChangeColor {
   0% {
-    color: var(--accent-color-primary);
+    color: var(--accent-color);
   }
   50% {
-    color: var(--theme-color);
+    color: var(--primary-text-color);
   }
   100% {
-    color: var(--accent-color-primary);
+    color: var(--accent-color);
   }
 }
 .form-submit {
@@ -872,7 +872,7 @@ header {
   color: #ffffff;
   border-radius: 4px;
   background-color: var(--accent-color);
-  transition: background-color var(--transition), box-shadow var(--transition);
+  transition: background-color var(--timing-function), box-shadow var(--timing-function);
   border: none;
   margin: auto;
   margin-top: 30px;
@@ -902,26 +902,7 @@ header {
   left: 12px;
   display: flex;
 }
-.mailing-list {
-  margin-left: 93px;
-  width: 570px;
-  height: 86px;
-}
-.submit {
-  position: relative;
-  width: 200px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  padding: 10px 62px 10px 29px;
-  background-color: var(--accent-color);
-  color: #fff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  left: 12px;
-  display: flex;
-}
+
 .subscribe {
   font-size: 16px;
   line-height: 1.25;
